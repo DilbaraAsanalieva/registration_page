@@ -1,0 +1,70 @@
+.text{
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.container{
+    width: 100vw;
+    background-color: mediumorchid;
+    height: 100vh;
+    overflow: hidden;
+    color: purple;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    border-radius: 40px;
+
+}
+.formContent{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+label{
+    color: royalblue;
+    display: block;
+    margin: 40px;
+    text-align: center;
+}
+
+input {
+    display: block; /*ылдый тушурот*/
+    padding: 5px 10px;
+    font-family: "Calibri Light", serif;
+    margin: 0 auto;
+    border-radius: 20px;
+    border:1px solid purple;
+    width: 500px;
+
+
+}
+input:hover{
+    background-color: pink;
+}
+
+
+#submit{
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    margin-top: 30px;
+    background-color: pink;
+    width: 250px;
+
+}
+#submit:hover{
+    background-color: pink;
+}
+.forgot{
+    color: gray;
+}
+.forgot:hover{
+    color: purple;
+}
